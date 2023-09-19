@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.todo-list-item {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  color: #ff0b37;
+  height: 35px;
+  width: 80px;
+  border: 1px solid #ff0b37;
+  border-radius: 8px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+p {
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    margin-top: 14px;
+  }
+}
